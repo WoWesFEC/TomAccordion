@@ -14,7 +14,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    axios.get('http://wowes-env-1.jnkdqwmw8j.us-east-2.elasticbeanstalk.com/items', {
+    axios.get('http://tomaccordion-env.ebgmq3pyez.us-east-2.elasticbeanstalk.com/items', {
       params : {
         ID : this.state.productId
       }
@@ -33,7 +33,7 @@ class App extends React.Component {
 
   getNewProductId(e) {
     this.setState({productId : e.detail});
-    axios.get('http://wowes-env-1.jnkdqwmw8j.us-east-2.elasticbeanstalk.com/items', {
+    axios.get('http://tomaccordion-env.ebgmq3pyez.us-east-2.elasticbeanstalk.com/items', {
       params : {
         ID : e.detail
       }
