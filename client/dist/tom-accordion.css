@@ -1,0 +1,54 @@
+html {
+  font-size: 100%;
+}
+
+.tom-accordion-header {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  font-weight: 400;
+  display: block;
+}
+
+.tom-accordion-wrapper {
+  padding-bottom: 20px;
+}
+
+.tom-panel-default {
+  background: #0471AF;
+  color: #FFF;
+  font-size: 14px;
+  display: block;
+  border-bottom: 1px solid;
+}
+
+.tom-panel-heading {
+  background: #0471AF;
+  color: #FFF;
+  line-height: 1em;
+  font-size: 14px;
+  display: block;
+  padding-top: 12px;
+  padding-right: 35px;
+  padding-left: 1rem;
+}
+
+.tom-accordion-collapsed {
+  background: #0471AF;
+  color: #FFF;
+  font-size: 14px;
+  display: block;
+  line-height: 1em;
+}
+
+.tom-panel-body {
+  background: #FFF;
+  color: black;
+  border-right: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+  padding: 1em;
+  display: block;
+  font-size: 14px;
+}

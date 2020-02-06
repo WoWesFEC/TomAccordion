@@ -1,0 +1,39 @@
+{
+  "name": "tomwowesaccordion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack -d --watch",
+    "start": "node server/index.js",
+    "start:dev": "nodemon server/index.js -w server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomGower/TomAccordion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomGower/TomAccordion/issues"
+  },
+  "homepage": "https://github.com/TomGower/TomAccordion#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
