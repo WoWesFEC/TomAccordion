@@ -6,7 +6,7 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      productId : 65,
+      productId : 1,
       description : 'it slices, it dices, and it changes diapers better than a Ginsu knife',
       specs : ['you cannot afford anything better', 'but for the price it is not that bad', 'or at least there is worse out there']
     };
