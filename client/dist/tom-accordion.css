@@ -2,6 +2,10 @@
   font-size: 100%;
 }*/
 
+.tom-accordion {
+  font-family: Helvetica,Arial,sans-serif;
+}
+
 .tom-accordion-header {
   width: 100%;
   text-align: center;
@@ -9,6 +13,15 @@
   color: #333;
   font-weight: 400;
   display: block;
+}
+
+#tom-accordion-head {
+  font-size: 28px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+  color: #333;
 }
 
 .tom-accordion-wrapper {

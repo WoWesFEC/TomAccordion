@@ -51,8 +51,8 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <div className="tom-accordion-header"><h2>Product Information</h2></div>
+      <div className="tom-accordion">
+        <div className="tom-accordion-header" id="tom-accordion-head"><h2>Product Information</h2></div>
       <div className="tom-accordion-wrapper">
         <div className="tom-panel-default">
           <div className="tom-panel-heading">
